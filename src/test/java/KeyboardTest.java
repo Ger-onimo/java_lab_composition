@@ -20,6 +20,11 @@ public class KeyboardTest {
 
     @Test
     public void canPressKey(){
-        assertEquals("enter", keyboard.pressKey("enter"));
+        assertEquals("Key pressed is enter", keyboard.pressKey("enter"));
+    }
+
+    @Test
+    public void canInputData(){
+        assertEquals("Key pressed is enter", keyboard.inputData("enter"));
     }
 }

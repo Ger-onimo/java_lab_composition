@@ -16,10 +16,10 @@ public class Keyboard implements IInput {
 
     @Override
     public String inputData(String data) {
-        return data;
+        return pressKey(data);
     }
 
     public String pressKey(String key){
-        return key;
+        return "Key pressed is " + key;
     }
 }
