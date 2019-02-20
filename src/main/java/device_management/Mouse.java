@@ -20,4 +20,8 @@ public class Mouse {
     public String click(String button){
         return button;
     }
+
+    public String move(String direction){
+        return direction;
+    }
 }
