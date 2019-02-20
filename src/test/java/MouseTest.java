@@ -17,4 +17,9 @@ public class MouseTest {
     public void hasButtons(){
         assertEquals(5, mouse.getButtons());
     }
+
+    @Test
+    public void hasType(){
+        assertEquals("wired", mouse.getType());
+    }
 }
