@@ -1,6 +1,8 @@
 package device_management;
 
-public class Mouse {
+import behaviours.IInput;
+
+public class Mouse implements IInput {
     int buttons;
     String type;
 
@@ -23,5 +25,10 @@ public class Mouse {
 
     public String move(String direction){
         return direction;
+    }
+
+    @Override
+    public String inputData(String data) {
+        return "You clicked the " + data;
     }
 }

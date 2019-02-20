@@ -32,4 +32,9 @@ public class MouseTest {
     public void canMoveMouse(){
         assertEquals("round and round", mouse.move("round and round"));
     }
+
+    @Test
+    public void canInputData(){
+        assertEquals("You clicked the Right mouse button", mouse.inputData("Right mouse button"));
+    }
 }
