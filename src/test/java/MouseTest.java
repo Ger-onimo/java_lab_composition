@@ -22,4 +22,9 @@ public class MouseTest {
     public void hasType(){
         assertEquals("wired", mouse.getType());
     }
+
+    @Test
+    public void canClickButton(){
+        assertEquals("L", mouse.click("L"));
+    }
 }

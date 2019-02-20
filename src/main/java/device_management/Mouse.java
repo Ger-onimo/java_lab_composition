@@ -16,4 +16,8 @@ public class Mouse {
     public String getType() {
         return type;
     }
+
+    public String click(String button){
+        return button;
+    }
 }
