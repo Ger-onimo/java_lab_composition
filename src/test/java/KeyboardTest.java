@@ -18,4 +18,8 @@ public class KeyboardTest {
         assertEquals("wireless", keyboard.getType());
     }
 
+    @Test
+    public void canPressKey(){
+        assertEquals("enter", keyboard.pressKey("enter"));
+    }
 }
